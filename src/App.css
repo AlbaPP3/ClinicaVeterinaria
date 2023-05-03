@@ -1,38 +1,218 @@
-.App {
+.formulario{
+  text-align: center;
+  width: 100%;
+  height: 300px;
+  background-color: white;
+  
+}
+
+.info{
+  display: flex;
+  background-color: rgb(84, 194, 157);
+  height: 70px;
+}
+.info img{
+margin-left: 10px;
+margin-top: 5px;
+height: 60px;
+}
+.info1{
+  display: flex;
+  margin-left: 425px;
+}
+.tlf{
+  margin-left: 150px;
+  margin-right: 5px;
+}
+.clinicaintro{
+  display: flex;
+  background-image: url(/public/parallax.jpg);
+  width: 100%;
+  height: 600px;
+}
+.intro{
+  display: flex;
+  margin-top: 100px;
+  margin-left: 100px;
+}
+.intro img{
+  width: 550px;
+  height: 400px;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+.titulo{
+  background-color: aquamarine;
+  height: 400px;
+  opacity: 70%;
+}
+.titulo1{
+  opacity: 100%;
+  margin-top: 50px;
+}
+.titulo1 h2{
+  margin-left: 30px;
+}
+.horariotlf{
+  text-align: center;
+  width: 300px;
+  margin-left: 300px;
+}
+.infofooter{
+  display: flex;
+  background-color: rgb(84, 194, 157);
+  height: 200px;
+ 
+}
+.imagenfooter img{
+  width: 100px;
+  height: 100px;
+  margin-top: 50px;
+  margin-left: 150px;
+}
+.redes{
+  margin-left: 200px;
+}
+.redes img{
+  width: 40px;
+  height: 40px;
+}
+.vetebuscar{
+  display: flex;
+  height: 575px;
+  background-color: aquamarine;
+}
+.datosvete{
+  background-color: aquamarine;
+  width: 40%;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.datosvete h2{
+  background-color: rgb(84, 194, 157);
+  
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.buscarmascota{
+  
+  background-color: aquamarine;
+  width: 60%;
 }
+.buscarmascota1 h2{
+  background-color: rgb(84, 194, 157);
+  
+}
+.datosmascota{
+  margin-top: 20px;
+  margin-left: 50px;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+}
+.botones{
   display: flex;
-  flex-direction: column;
+  background-color: rgb(84, 194, 157);
+  height: 40px;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  text-align: center;
+  width: 100%;
 }
 
-.App-link {
-  color: #61dafb;
+.botonsalir1{
+  align-items: center;
+  background-color: aquamarine;
+  align-content: center;
+  text-align: center;
+  margin-left: 600px;
+  
+}
+.datoscliente{
+  display: flex;
+  height: 600px;
+}
+.cliente1{
+  width: 600px;
+  background-color: aquamarine;
+  align-items: center;
+  text-align: center;
+}
+.cliente1 h2{
+  background-color: rgb(84, 194, 157);
+}
+.cliente1 h2, h3{
+  margin-top: 40px;
+}
+.servicios{
+  background-image: url(/public/12.jpg);
+}
+.servicios1{
+  margin-left: 100px;
+  width: 700px;
+  background-size: cover;
+  height: 400px;
+}
+.servicios2{
+  background-color: aquamarine;
+  opacity: 70%;
+  margin-right: 40px;
+  text-align: center;
+  height: 350px;
+  margin-top: 70px;
+}
+.botonsalir{
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  background-color:  rgb(84, 194, 157);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.container{
+  display: flex;
+  text-align: center;
+  background-color: aquamarine;
+  height: 700px;
+}
+.mt-5{
+  width: 400px;
+  margin-left: 500px;
+  height: 520px;
+  margin-top: 50px;
+  background-color: rgb(84, 194, 157) ;
+}
+.controls-mascota{
+  width: 200px;
+  margin-left: 100px;
+  text-align: center;
+  align-items: center;
+}
+.botonatras{
+margin-left: 230px;
+}
+.buscarmascotac{
+  display: flex;
+  background-color: aquamarine;
+}
+.datosmascotac{
+  display: flex;
+}
+.datosmascotac img{
+  width: 400px;
+  height: 300px;
+  margin-top: 50px;
+  margin-left: 100px;
+}
+.buscarmascota1c{
+  display: flex;
+  margin-left: 100px;
+  height: 400px;
+  width: 500px;
+  margin-top: 30px;
+}
+.idesmasc{
+  margin-top: 150px;
+  margin-left: 70px;
+}
+.buscarmascota1c h2{
+  background-color: rgb(84, 194, 157);
+  text-align: center;
+}
+.btn {
+  margin-left: 5px;
 }
